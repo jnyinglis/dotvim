@@ -6,6 +6,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'https://github.com/AndrewRadev/splitjoin.vim.git'
 Plug 'slashmili/alchemist.vim'
 Plug 'elmcast/elm-vim'
+Plug 'kana/vim-textobj-user'
 
 call plug#end()
 
