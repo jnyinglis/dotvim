@@ -1,7 +1,8 @@
-" Ripped off from rubyblock by nelstrom
+" Ripped off from nelstrom rubyblock
 if exists('g:loaded_textobj_elixirblock')  "{{{1
   finish
 endif
+
 
 
 " Interface  "{{{1
@@ -12,6 +13,9 @@ call textobj#user#plugin('elixirblock', {
 \        'select-i': 'ie',  '*select-i-function*': 's:select_i'
 \      }
 \    })
+
+
+
 
 
 " Misc.  "{{{1
@@ -54,10 +58,18 @@ function! s:select_i()
 endfunction
 
 
+
+
+
+
 " Fin.  "{{{1
 
 let g:loaded_textobj_elixirblock = 1
 
 " __END__
 " vim: foldmethod=marker
+"
+"
+"
+"
 "
