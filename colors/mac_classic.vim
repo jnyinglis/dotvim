@@ -93,4 +93,3 @@ hi vimCommentTitle guifg=#3C4C72 ctermfg=240 gui=bold
 hi helpSpecial guifg=#6E79F1 ctermfg=69
 
 " Elixir styles {{{1
-hi
