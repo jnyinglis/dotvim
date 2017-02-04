@@ -1,4 +1,4 @@
-[[ ! -e ~/.vim/.vimrc ]] && ln -s .vimrc ~/.vim/.vimrc
+[[ ! -e ~/.vim/.vimrc ]] && ln -s $(pwd)/.vimrc ~/.vim/.vimrc
 [[ ! -e ~/.vim/colors ]] && mkdir ~/.vim/colors
 [[ ! -L ~/.vim/colors/mac_classic.vim ]] && ln -s $(pwd)/colors/mac_classic.vim ~/.vim/colors
 [[ ! -e ~/.vim/plugin ]] && mkdir ~/.vim/plugin
