@@ -7,6 +7,7 @@ Plug 'https://github.com/AndrewRadev/splitjoin.vim.git'
 Plug 'slashmili/alchemist.vim'
 Plug 'elmcast/elm-vim'
 Plug 'kana/vim-textobj-user'
+Plug 'https://github.com/yegappan/mru.git'
 
 call plug#end()
 
@@ -64,3 +65,5 @@ colorscheme mac_classic
 
 "Elm-lang formatting
 let g:elm_format_autosave = 1
+
+let g:alchemist#elixir_erlang_src = '/usr/local/share/src'
