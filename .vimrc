@@ -8,6 +8,7 @@ Plug 'slashmili/alchemist.vim'
 Plug 'elmcast/elm-vim'
 Plug 'kana/vim-textobj-user'
 Plug 'https://github.com/yegappan/mru.git'
+"Plug 'Valloric/YouCompleteMe' ", { 'do': /.install.py --clang-completer' }
 
 call plug#end()
 
@@ -62,6 +63,17 @@ colorscheme mac_classic
 "	set t_Co=256
 "	set guitablabel=%M\ %t
 "endif
+
+"File exploring with netrw
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+augroup ProjectDrawer
+	autocmd!
+	autocmd VimEnter * :Vexplore
+augroup END
 
 "Elm-lang formatting
 let g:elm_format_autosave = 1
